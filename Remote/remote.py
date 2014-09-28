@@ -6,6 +6,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((sys.argv[1], 8080))
 
 print "[A] Left  [D] Right  [W] Forward  [S] Backward"
+print
 print "Ctrl-C to quit"
 
 pygame.init()
